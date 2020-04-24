@@ -1,7 +1,7 @@
-import React from "react";
-import { View, StyleSheet, Text } from "react-native";
-import { Feather } from "@expo/vector-icons";
-import { TextInput } from "react-native-gesture-handler";
+import React from 'react';
+import { View, StyleSheet, Text } from 'react-native';
+import { Feather } from '@expo/vector-icons';
+import { TextInput } from 'react-native-gesture-handler';
 
 const Searchbar = ({ term, handleTermChange, handleTermSubmit }) => {
   return (
@@ -20,14 +20,15 @@ const Searchbar = ({ term, handleTermChange, handleTermSubmit }) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#F0EEEE",
+    backgroundColor: '#F0EEEE',
     height: 50,
     borderRadius: 5,
     marginHorizontal: 15,
-    flexDirection: "row",
+    flexDirection: 'row',
+    marginBottom: 10,
   },
   icon: {
-    alignSelf: "center",
+    alignSelf: 'center',
     marginHorizontal: 15,
   },
   textInput: {
